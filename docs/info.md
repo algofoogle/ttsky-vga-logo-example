@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Uses digital logic with a simple Verilog ROM to display a bouncing logo on a VGA display.
 
 ## How to test
 
-Explain how to use your project
+Provide a 25MHz clock and assert reset, then observe the output via a Tiny VGA adapter connected to `uo_out`!
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Tiny VGA adapter connected to a VGA monitor (or, say, a VGA=>HDMI converter).
